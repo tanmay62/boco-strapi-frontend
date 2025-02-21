@@ -36,3 +36,84 @@
     transform: rotate(360deg);
   }
 }
+
+/*navbar*/
+
+/* Navbar Container */
+.navbar-d2c {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 40px; /* Adjusted padding to match original UI */
+  background-color: #fff;
+}
+
+/* Navbar Links */
+.nav-links-d2c {
+  display: flex;
+  align-items: center;
+  gap: 40px; /* Increased gap for even spacing */
+}
+
+.nav-links-d2c a {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  color: #333;
+  transition: color 0.3s ease-in-out;
+}
+
+.nav-links-d2c a:hover {
+  color: #ff6600;
+}
+
+/* Navbar Buttons */
+.nav-buttons-d2c {
+  display: flex;
+  align-items: center;
+  gap: 25px; /* Ensures buttons have correct spacing */
+}
+
+/* Button Styling */
+.nav-buttons-d2c .btn-primary {
+  background-color: #ff6600;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: background 0.3s ease-in-out;
+}
+
+.nav-buttons-d2c .btn-primary:hover {
+  background-color: #e65c00;
+}
+
+/* ========================= */
+/* 📱 Responsive Adjustments */
+/* ========================= */
+
+@media (max-width: 1024px) {
+  .nav-links-d2c {
+    gap: 30px;
+  }
+
+  .nav-buttons-d2c {
+    gap: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .navbar-d2c {
+    padding: 15px 20px;
+  }
+
+  .nav-links-d2c {
+    gap: 20px;
+    font-size: 14px;
+  }
+
+  .nav-buttons-d2c {
+    gap: 15px;
+  }
+}
+

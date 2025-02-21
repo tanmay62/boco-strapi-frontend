@@ -1,0 +1,82 @@
+/* ===================== */
+/* Top & Bottom Lines */
+/* ===================== */
+.left-line-d2c,
+.right-line-d2c {
+    width: 25%;
+    height: 2px;
+    background-color: var(--lavender-1-techd2c);
+    margin: 20px 0;
+}
+
+.mid-line-d2c {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    white-space: nowrap;
+    margin: 10px 0;
+}
+
+/* Bottom Line Matching the Top Line */
+.bottom-line-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 10px;
+    /* Adjust spacing */
+}
+
+/* ===================== */
+/* Brand Slider Styling */
+/* ===================== */
+.section_brand-partners-d2c {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    padding: 20px 0;
+    max-width: 1200px;
+    /* Match reference UI */
+    margin: 0 auto;
+}
+
+.brand-slider-container {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    height: 91px;
+}
+
+
+.brand-slider {
+    margin-top: 1rem;
+    display: flex;
+    gap: 40px;
+    /* Adjust spacing between brands */
+    animation: slide 15s linear infinite;
+    width: max-content;
+}
+
+.brand-item {
+    flex-shrink: 0;
+    width: 120px;
+    /* Adjust brand logo width */
+}
+
+.brand-logo {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+/* Infinite Scrolling Animation */
+@keyframes slide {
+    from {
+        transform: translateX(0%);
+    }
+
+    to {
+        transform: translateX(-50%);
+    }
+}
