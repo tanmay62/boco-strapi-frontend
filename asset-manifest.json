@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/boco-react/static/css/main.dc5e19db.css",
+    "main.js": "/boco-react/static/js/main.6f97284c.js",
+    "static/js/453.fd0a5e5f.chunk.js": "/boco-react/static/js/453.fd0a5e5f.chunk.js",
+    "index.html": "/boco-react/index.html",
+    "main.dc5e19db.css.map": "/boco-react/static/css/main.dc5e19db.css.map",
+    "main.6f97284c.js.map": "/boco-react/static/js/main.6f97284c.js.map",
+    "453.fd0a5e5f.chunk.js.map": "/boco-react/static/js/453.fd0a5e5f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dc5e19db.css",
+    "static/js/main.6f97284c.js"
+  ]
+}
